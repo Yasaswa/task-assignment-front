@@ -1,0 +1,1777 @@
+body {
+  background-color: #f8f9fa;
+  height: 100vh;
+  padding: 0;
+  font-style: normal;
+}
+
+.erp_form_tab {
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background: #831657;
+  padding: 1rem 0 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: none !important;
+}
+
+.erp-form-Tabs {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.erp_form_container_tabs {
+  max-width: 100% !important;
+  background: #fff;
+}
+
+.nav.nav-tabs .nav-link.active {
+  background-color: #831657;
+  color: #fff !important;
+}
+
+.nav.nav-tabs .nav-link {
+  color: #212529 !important;
+}
+
+.form-check-input {
+  opacity: 1 !important;
+}
+
+/* Exports css */
+.erp_links:hover {
+  color: var(--bs-link-hover-color) !important;
+}
+
+
+nav.navbar.navbar-expand-lg.blur.border-radius-lg.top-0.z-index-3.shadow.position-absolute.mt-4.py-2.start-0.end-0.mx-4 {
+  display: none;
+}
+
+
+/* Table scrollbar css 17-04-2023 */
+:root {
+  --code-color: darkred;
+  --code-bg-color: #aaaaaa;
+  --code-font-size: 14px;
+  --code-line-height: 1.4;
+  --scroll-bar-color: #c5c5c5;
+  --scroll-bar-bg-color: #f6f6f6;
+}
+
+pre {
+  color: var(--code-color);
+  font-size: var(--code-font-size);
+  line-height: var(--code-line-height);
+  background-color: var(--code-bg-color);
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scroll-bar-bg-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-bar-color);
+  border-radius: 20px;
+  border: 3px solid var(--scroll-bar-bg-color);
+}
+
+.menubar-color {
+  background-color: #831657 !important;
+}
+
+/* Table scrollbar end*/
+
+.form-check-input {
+  opacity: 1 !important;
+}
+
+
+/* Required Field astericks */
+.required {
+  color: red;
+}
+
+/* Validation Err Msg */
+.erp_validation {
+  font-size: 11px;
+  font-style: italic;
+}
+
+
+/* Input Field */
+.erp_input_field {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  height: 28px;
+  font-weight: 400;
+  margin-bottom: -8px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Input Field text in table*/
+.erp_input_field_table_txt {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  height: 28px;
+  font-weight: 400;
+  margin-bottom: -8px;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.erp_input_field_table_txt:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #424242;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* Text area Field */
+.erp_txt_area {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px !important;
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Labels */
+
+.erp-form-label {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  line-height: 24px;
+  margin-bottom: 0px !important;
+}
+
+.erp-form-label-md {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1.5;
+  text-transform: capitalize !important;
+  letter-spacing: 0.02857em;
+  opacity: 1;
+  vertical-align: unset;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: black !important;
+}
+
+.erp-form-label-md-lg {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.5;
+  margin: 0;
+  text-transform: capitalize !important;
+  letter-spacing: 0.02857em;
+  opacity: 1;
+  vertical-align: unset;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #831657;
+}
+
+.erp-form-label-lg {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #831657;
+}
+
+h6 {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+
+.erp_formLabel {
+  margin-bottom: 0.5rem !important;
+}
+
+
+/* Select Box */
+.form-select-sm {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-size: .875rem;
+  border-radius: 0.25rem;
+}
+
+.form-select {
+  margin-bottom: -8px;
+  display: block;
+  /* width: 100%; */
+  -moz-padding-start: calc(0.75rem - 3px);
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  appearance: none;
+  font-size: 12px;
+  height: 28px;
+  font-weight: 400;
+}
+
+
+.css-qbdosj-Input {
+  visibility: visible;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: inline-grid;
+  grid-area: 1 / 1 / 2 / 3;
+  grid-template-columns: 0 min-content;
+  margin: 0px;
+  /* padding-bottom: 2px; */
+  /* padding-top: 2px; */
+  color: hsl(0, 0%, 20%);
+  box-sizing: border-box;
+  /* font-size: 20px; */
+}
+
+
+
+.css-13cymwt-control {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 0px;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.css-1jqq78o-placeholder {
+  grid-area: 1 / 1 / 2 / 3;
+  color: hsl(0, 0%, 50%);
+  margin-left: 5px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  font-size: 13px;
+  /* margin-bottom: 5px; */
+}
+
+.frorm-search-costom {
+  grid-area: 1 / 1 / 2 / 3;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: hsl(0, 0%, 20%);
+  margin-left: 2px;
+  margin-right: 2px;
+  box-sizing: border-box;
+  /* margin-bottom: 14px; */
+  /* margin-bottom: -8px; */
+  display: block;
+  /* width: 100%; */
+  font-size: 12px !important;
+  -moz-padding-start: calc(0.75rem - 3px);
+  line-height: 1.5;
+  color: #212529;
+  /* background-color: #fff; */
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  /* border: 1px solid #ced4da; */
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  appearance: none;
+  font-size: 12px;
+  height: 28px;
+  font-weight: 400;
+
+}
+
+/* Changes for the searchable combo box input field */
+.css-t3ipsp-control:hover {
+  /* border-color: #111112; */
+  border-color: black !important;
+}
+
+.css-t3ipsp-control {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: default;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  /* min-height: 38px; */
+  min-height: 27px !important;
+  outline: 0 !important;
+  position: relative;
+  -webkit-transition: all 100ms;
+  /* transition: all 100ms; */
+  transition: none !important;
+  background-color: hsl(0, 0%, 100%);
+  /* border-color: #2684FF; */
+  border-color: #212529 !important;
+  border-radius: 4px;
+  /* border-style: solid; */
+  border-style: hidden;
+  border-width: 1px;
+  /* box-shadow: 0 0 0 1px #2684FF; */
+  box-shadow: 0 0 0 1px #212529 !important;
+  box-sizing: border-box;
+}
+
+/* Combo toggle icon */
+.css-15lsz6c-indicatorContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: color 150ms;
+  transition: color 150ms;
+  color: hsl(0, 0%, 40%);
+  /* padding: 8px; */
+  padding: 0px !important;
+  box-sizing: border-box;
+}
+
+.css-zakrjs-Input {
+  visibility: visible;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: inline-grid;
+  grid-area: 1 / 1 / 2 / 3;
+  grid-template-columns: 0 min-content;
+  /* margin: 2px; */
+  /* padding-bottom: 2px; */
+  /* padding-top: 2px; */
+  color: hsl(0, 0%, 20%);
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+
+/* Changes for the searchable combo box all options. */
+.css-kuym0x-option {
+  cursor: default;
+  display: block;
+  font-size: 12px;
+  width: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
+  color: inherit;
+  /* padding: 8px 12px; */
+  padding: 2px 7px !important;
+  box-sizing: border-box;
+}
+
+/* Changes for the searchable combo box option hover. */
+.css-1uftmlz-option {
+  cursor: default;
+  display: block;
+  font-size: 12px;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* background-color: #DEEBFF; */
+  background-color: #fcebf5 !important;
+  color: inherit;
+  /* padding: 8px 12px; */
+  padding: 4px 10px !important;
+  box-sizing: border-box;
+}
+
+/* For selected option */
+.css-2rx23-option {
+  cursor: default;
+  display: block;
+  font-size: 12px;
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* background-color: #2684FF; */
+  background-color: #991a66 !important;
+  color: hsl(0, 0%, 100%);
+  /* padding: 8px 12px; */
+  padding: 2px 5px !important;
+  box-sizing: border-box;
+}
+
+/* No records found msg */
+.css-1wlit7h-NoOptionsMessage,
+.css-9x5mqu {
+  text-align: center;
+  color: black !important;
+  /* padding: 8px 12px; */
+  padding: 2px !important;
+  font-size: 12px !important;
+  box-sizing: border-box;
+}
+
+.css-16xfy0z-control {
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: default;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  min-height: 15px !important;
+  position: relative;
+  transition: all 100ms ease 0s;
+  background-color: rgb(242, 242, 242);
+  border-color: rgb(230, 230, 230);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  outline: 0px !important;
+}
+
+.css-hlgwow {
+  -webkit-box-align: center;
+  align-items: center;
+  display: grid;
+  flex: 1 1 0%;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 4px !important;
+  box-sizing: border-box;
+}
+
+
+.css-1nmdiq5-menu {
+  /* margin-left: 20px !important;
+  margin-top: 0px !important; */
+  margin-top: 1px;
+
+}
+
+.css-1fdsijx-ValueContainer {
+  margin: 0px;
+  padding: 0px 4px;
+}
+
+.css-1xc3v61-indicatorContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+.form-select-phone {
+  border-radius: 0.375rem 0rem 0rem 0.375rem;
+  margin-bottom: -8px;
+  display: block;
+  width: 30%;
+  padding: 0px 0px 0px 10px;
+  -moz-padding-start: calc(0.75rem - 3px);
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  /* border-radius: 0.375rem; */
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  appearance: none;
+  font-size: 12px;
+  height: 28px;
+  font-weight: 400;
+  border-right-style: none;
+
+}
+
+.erp_phn_border {
+  border-radius: 0rem 0.375rem 0.375rem 0rem;
+}
+
+.erp_right_border {
+  border-radius: 0.375rem 0rem 0rem 0.375rem;
+}
+
+/* Onfocus fields */
+
+.erp_input_field:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #424242;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-select:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #424242;
+  outline: 0;
+  box-shadow: none;
+}
+
+.erp_txt_area:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #424242;
+  outline: 0;
+  box-shadow: none;
+}
+
+.erp_form-select-filter:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #424242;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* For Filter */
+.erp_form_control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem -0.25rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+
+}
+
+.css-ssdpvl-control {
+  border-color: #0d0e0e !important;
+  box-shadow: none !important;
+
+}
+
+.erp_form-select-sm-filter {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-size: .875rem;
+  border-radius: 0.25rem;
+}
+
+.erp_form-select-filter {
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  -moz-padding-start: calc(0.75rem - 3px);
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  appearance: none;
+
+}
+
+.operatorSelect {
+  width: auto !important;
+  height: 28px !important;
+}
+
+/* Radio Buttons */
+
+.erp_form_radio {
+  font-size: 13px;
+  font-weight: 400;
+  display: flex;
+}
+
+.sCheck {
+  margin-left: 5px;
+}
+
+.form-check {
+  padding-top: 7px;
+}
+
+.check {
+  display: flex;
+  margin-right: 10px;
+}
+
+.erp_radio_button :checked {
+  background-color: #831657 !important;
+  border-color: #831657 !important;
+}
+
+.erp_radio_button :focus {
+  box-shadow: 0 0 0 0.25rem rgb(79 160 44 / 25%) !important;
+}
+
+input[type=checkbox] {
+  accent-color: #831657 !important;
+  mix-blend-mode: normal !important;
+  /* opacity: 1; */
+}
+
+
+/* Modal Css */
+.erp_modal_body {
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  flex: 1 1 auto;
+  padding: var(--bs-modal-padding);
+}
+
+.erp-modal-footer {
+  justify-content: center;
+  padding: 8px;
+}
+
+.erp-modal-header {
+  padding: 8px;
+
+}
+
+.modal-header {
+  justify-content: space-between !important;
+}
+
+.erp_modal_title {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: var(--bs-modal-title-line-height);
+  color: #831657;
+}
+
+.erp_modal_delete_icon {
+  color: red;
+  font-size: -webkit-xxx-large;
+}
+
+.erp_modal_success_icon {
+  color: green;
+  font-size: xx-large;
+}
+
+.erp-modal-close {
+  /* border: 1px solid #999; */
+  font-size: 11px;
+  width: 18px;
+  /* display: inline-block; */
+  transition: ease 0.25s all;
+  font-family: Arial, Sans-Serif;
+  float: right;
+  margin-top: 4px;
+  margin-right: 5px;
+  border-radius: 0.25rem;
+}
+
+.erp-modal-close:hover {
+  -webkit-transform: translate(50%, -50%) rotate(180deg);
+  transform: rotate(180deg);
+  text-decoration: none;
+  color: #999;
+  cursor: pointer;
+}
+
+.btn-close:hover {
+  -webkit-transform: translate(50%, -50%) rotate(180deg);
+  transform: rotate(180deg);
+  text-decoration: none;
+  color: #999;
+  cursor: pointer;
+}
+
+/* Document Modal css */
+.erp_document_Form {
+  --bs-modal-width: 1000px !important;
+}
+
+@media (min-width: 992px) {
+
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 1000px;
+  }
+}
+
+/* Document Modal css end */
+
+/* Accordion Button */
+.accordion-button {
+  padding: 11px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition);
+}
+
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  color: white !important;
+  background: #831657 !important;
+}
+
+/* Filter Css */
+.filtr_gropBy {
+  margin-top: 5px;
+}
+
+.erp_operator_val {
+  margin-left: 10px;
+}
+
+.erp-filters-table-scroll {
+  display: block;
+  overflow-y: auto;
+  height: 125px;
+  margin-top: 5px !important;
+  margin-left: 10px !important;
+  white-space: nowrap;
+}
+
+.rotate_filtr_arrow {
+  color: #2a2e34;
+
+}
+
+.grp_by_row {
+  margin-top: 10px;
+}
+
+.filtr_btn {
+  float: right;
+}
+
+.erp_filtr_moveBtn {
+  border-radius: 13%;
+  border: #888 solid 1px;
+}
+
+.group_by_rslt {
+  display: inline-block !important;
+  padding: 2px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page_entries {
+  display: inline-flex !important;
+}
+
+.query-columns>span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.group_rslt {
+  width: 10% !important;
+  display: flex !important;
+}
+
+.filter {
+  padding: 6px;
+  background-color: #f0f3f5;
+}
+
+.group_by_select {
+  width: 119% !important;
+  height: 25px !important;
+}
+
+.erp_filter_row {
+  margin: 5px;
+}
+
+.erp_page_select {
+  height: 22px;
+  width: 63px;
+  margin-left: 4px;
+  padding: 0px 7px;
+}
+
+#filters tr.filter {
+  height: 2.1em;
+}
+
+select#operators_status_id {
+  width: 130px;
+}
+
+button.erp_toggle-filter {
+  border: 0;
+  background-color: inherit;
+  text-decoration: underline;
+  color: #00f;
+  outline: 0;
+}
+
+
+/* Filter Css End*/
+
+/* Side Navbar css */
+
+.css-1ioqvny-MuiPaper-root-MuiDrawer-paper {
+  border-radius: 0px !important;
+  margin: 0px !important;
+  height: calc(112vh - 2rem) !important;
+}
+
+
+
+/* Common Button Css */
+.erp-gb-button {
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  background: linear-gradient(72.47deg, #831657, #831657);
+  border: 0;
+  border-radius: 5px !important;
+  box-sizing: border-box;
+  color: #ffff !important;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  justify-content: center;
+  letter-spacing: .02857em;
+  margin: 0;
+  outline: 0;
+  position: relative;
+  text-decoration: none;
+  text-rendering: auto;
+  text-transform: capitalize !important;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
+}
+
+/* .sign-in-btn:hover {
+  background-color: #d5278f !important;
+}
+
+.sign-in-btn:focus:not(:hover) {
+  background-color: #d5278f !important;
+} */
+
+/* for the username-passoword input field lables */
+.css-5rxz7w-MuiFormLabel-root-MuiInputLabel-root.Mui-focused,
+.css-fdqox3.MuiInputLabel-shrink {
+  color: #831657 !important;
+  font-weight: bold !important;
+}
+
+.erp-download-icon-btn {
+  font-size: 11pt;
+  padding-left: 2px;
+}
+
+input.btn.btn-light {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  height: 24px;
+  padding: 0 7px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px !important;
+  width: 35px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.erp_menu_icon {
+  color: #e4e6f4 !important;
+}
+
+.erp_links_css {
+  color: #999 !important;
+
+}
+
+/*Export Icons Colors */
+.erp_pdf_icon {
+  color: red;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.erp_excel_icon {
+  color: #1e4e1e;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.erp_csv_icon {
+  color: #114cfb;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.erp_trAdd_icon {
+  font-size: 16px;
+  color: #33691E;
+  cursor: pointer;
+}
+
+.erp_trRemove_icon {
+  font-size: 16px;
+  color: red;
+}
+
+/* end export icon css */
+
+/* ViewUpdateDelete Icons Colors */
+.erp-edit-btn {
+  color: #4CAF50;
+}
+
+.erp-delete-btn {
+  color: #F44335;
+}
+
+.erp-view-btn {
+  font-size: 12px !important;
+  color: #1A90EE !important;
+}
+
+.erp-schedule-btn {
+  font-size: 14px !important;
+}
+
+
+/* End ViewUpdateDelete Icons Colors */
+
+
+
+/* Dashboard Navbar */
+.erp_navbar_nav {
+  --bs-nav-link-padding-y: 0rem;
+}
+
+.erp_nav_menu {
+  color: #e4e6f4 !important;
+}
+
+.navbar_position {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.erp_dashboard_navbar {
+  background: #831657 !important;
+  padding: 0px !important;
+}
+
+.head_nav_brand {
+  margin-left: 23px;
+  font-weight: 700;
+  color: #831657;
+}
+
+.navbar-dropdown-color a {
+  color: #831657 !important;
+}
+
+.navbar-dropdown-item-color.active,
+.navbar-dropdown-item-color:active {
+  background-color: #e0138e !important;
+}
+
+.menu_nav_container {
+  margin-left: unset;
+}
+
+.erp_Header_navbar {
+  padding: 0px !important;
+  background-color: #FAFAFA;
+
+}
+
+.erp_nav_menu_itemDivider {
+  margin: 0px;
+}
+
+a.nav-link {
+  font-size: 16px;
+  color: white;
+}
+
+.erp_nav_menu_item {
+  font-size: 14px;
+}
+
+.erp_nav_menu_item:focus {
+  background-color: #831657 !important;
+}
+
+/* Dashboard navbar end */
+
+/*Breadcrumb */
+ol.MuiBreadcrumbs-ol.css-4pdmu4-MuiBreadcrumbs-ol {
+  margin-left: 26px;
+  margin-top: -21px;
+}
+
+.erp_header_fix {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #FAFAFA;
+
+}
+
+/*Breadcrumb End*/
+
+
+
+
+/* Dashboard Layout  */
+.erp_top_Form {
+  padding-top: 110px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+
+.css-1v5k1q4 {
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
+}
+
+.css-aim41u {
+  padding: 0px 13px 0px 0;
+}
+
+.css-nkchhw {
+  padding: 0px 13px 0px 0;
+}
+
+/* Dashboard Layout  end*/
+
+
+/* Table Css */
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  color: var(--bs-table-striped-color);
+  /* background-color: #01B636; */
+}
+
+.table>:not(caption)>*>* {
+  padding: 0.3rem 0.3rem;
+  border-bottom-width: 1px;
+}
+
+.erp_rtfc_table_th,
+.erp_rtfc_table_td {
+  border-bottom: 1px solid #ccc !important;
+  border-right: 1px solid #ccc !important;
+  padding: 5px !important;
+  /* color: black !important; */
+}
+
+.erp_rtfc_table_th {
+  font-weight: bold !important;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+}
+
+.erp_rtfc_table_th {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  white-space: nowrap !important;
+}
+
+.ReactTable .rt-tbody .rt-td {
+  /* border-right: 1px solid rgba(0, 0, 0, 0.02); */
+  border-right: none !important;
+}
+
+.rthfc.-sp,
+.rthfc.-sp .rthfc-td-fixed {
+  position: sticky;
+  z-index: 0 !important;
+}
+
+.erp_table {
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+
+.erp_table_scroll {
+  display: block;
+  height: 200px;
+  overflow: auto;
+}
+
+.erp_table_head {
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  /* z-index: 1; */
+}
+
+.erp_table_th {
+  font-size: 12px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.erp_table_td {
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+/* CSS style for table cells */
+.table-cell {
+  white-space: nowrap;
+  /* Prevent text wrapping */
+  overflow: hidden;
+  /* Hide overflowing text */
+  text-overflow: ellipsis;
+  /* Show an ellipsis (...) when text overflows */
+}
+
+.last-frozen-column {
+  border-right: 1px solid black !important;
+}
+
+.wrap-content {
+  white-space: unset !important;
+}
+
+.erp_pagination {
+  justify-content: center;
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 11px;
+  --bs-pagination-color: var(--bs-link-color);
+  --bs-pagination-bg: #fff;
+  --bs-pagination-border-width: 1px;
+  --bs-pagination-border-color: #dee2e6;
+  --bs-pagination-border-radius: 0.375rem;
+  --bs-pagination-hover-color: var(--bs-link-hover-color);
+  --bs-pagination-hover-bg: #e9ecef;
+  --bs-pagination-hover-border-color: #dee2e6;
+  --bs-pagination-focus-color: var(--bs-link-hover-color);
+  --bs-pagination-focus-bg: #e9ecef;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  --bs-pagination-active-color: #fff;
+  --bs-pagination-active-bg: #0d6efd;
+  --bs-pagination-active-border-color: #0d6efd;
+  --bs-pagination-disabled-color: #6c757d;
+  --bs-pagination-disabled-bg: #fff;
+  --bs-pagination-disabled-border-color: #dee2e6;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-link {
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+
+.erp_form_tab_div {
+  padding: 0px !important;
+}
+
+
+
+.erp_form_div {
+  padding: 10px;
+
+}
+
+/* company_list css */
+
+
+.erp_back_btn {
+  margin-right: 10px;
+}
+
+.erp_back_btn_color {
+  color: white !important;
+
+}
+
+.btn_row_class {
+  margin-bottom: 4px !important;
+}
+
+
+.values {
+  padding: 1px !important;
+}
+
+.exports {
+  text-align: right;
+  float: right;
+}
+
+.css-1fdwtd7 {
+  margin-right: 10px;
+  margin-top: 2%;
+}
+
+.css-fxid9l {
+  background: #2a2e34;
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  right: 0rem !important;
+  bottom: 3rem !important;
+}
+
+.css-1n8f1nf {
+  background: linear-gradient(195deg, #01B636, #3BD16F);
+}
+
+.css-6cmau2-MuiTypography-root {
+  color: white;
+  font-family: inherit;
+}
+
+.css-7qqlnw-MuiListItemIcon-root {
+  color: white;
+}
+
+.css-eimhud-MuiSvgIcon-root {
+  background: white;
+}
+
+.css-11gxpxy-MuiInputBase-root-MuiInput-root:after {
+  border-color: #070404 !important;
+  border: 1px;
+
+}
+
+/* .table-striped table {
+  Undo any styles from the table-striped class here
+} */
+
+
+/* NavBar Css */
+nav.navbar.navbar-expand-lg.navbar-light.bg-primary {
+  border-radius: 20px;
+  height: 50px;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 25px !important;
+  height: 25px !important;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+button.accordion-button {
+  height: 37px;
+  color: #831657;
+}
+
+.accordion {
+  --bs-accordion-active-color: white !important;
+  --bs-accordion-active-bg: #831657 !important;
+  --bs-accordion-border-color: var(--bs-border-color) !important;
+  --bs-accordion-border-width: 1px !important;
+}
+
+
+.form-select-lg {
+  height: 47px !important;
+  font-size: 14px !important;
+}
+
+.css-1xwgyfb-MuiSvgIcon-root {
+  display: none !important;
+}
+
+.selectBox {
+  border: 1px solid #E5E5E5;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 10px #e8e8e8 inset;
+  height: 38px;
+  padding: 10px;
+
+}
+
+/* By Akshay  */
+
+
+.dropdown-menu .show {
+  width: 135% !important;
+}
+
+/* Removing Margin For edit delete icon */
+.css-scrjti-MuiTypography-root {
+
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.buttons {
+  font-size: 0.9em;
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.filter-container {
+  height: auto;
+  float: right;
+}
+
+.form-content-control {
+  margin-left: 10px;
+}
+
+.buttons>span {
+  margin: 5px;
+}
+
+
+#NoRcrdId {
+  font-size: 14px;
+  height: 51px !important;
+  background: #fff;
+}
+
+
+/* Responsive web */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  /* .erp_footer {
+    position: unset !important;
+  } */
+
+  .cmp_Btns {
+    margin-left: 10% !important;
+  }
+
+  .operatorSelect {
+    margin-left: 0px !important;
+  }
+
+  .erp_add_filter {
+    width: 80% !important;
+    margin-left: 0px !important;
+  }
+
+  .table_class {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+  }
+
+  #tbl_res_id {
+    white-space: pre-line !important;
+
+  }
+
+  #availableColumns {
+    overflow: scroll !important;
+  }
+
+  #column_id {
+    display: table-cell !important;
+  }
+
+  .pagination_id {
+    display: grid !important;
+    width: 100% !important;
+    margin: 1px !important;
+  }
+
+  .erp-filters-table-scroll {
+    display: flow-root !important;
+    margin-left: 0px !important;
+  }
+
+  .operator {
+    padding: 1px !important;
+    width: auto !important;
+  }
+
+  .values {
+    padding: 1px !important;
+  }
+
+  .css-1n8f1nf {
+    width: 93% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .span_tbl_pagination {
+    display: contents !important;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 481px) {
+
+  #buttons_row1 {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+
+  #buttons_row2 {
+    margin-top: -128px;
+    float: right;
+  }
+
+  .buttons_move {
+    transform: rotate(90deg);
+    margin: 4px;
+  }
+
+  #selectedColumns {
+    width: 85%;
+  }
+
+  .exports {
+    text-align: unset;
+  }
+
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  /* body {
+        background-color: white !important;
+    } */
+}
+
+hr {
+  margin: 8px !important;
+}
+
+
+#maintainenceImgId {
+  min-width: 500px !important;
+  min-height: 400px !important;
+}
+
+
+.msgpanel {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  text-align: center;
+}
+
+
+/* Menubar container css */
+/* Your custom container styles */
+.custom-container {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 100% !important;
+  position: relative;
+}
+
+
+/* Mobile screens (576px and above) */
+@media (min-width: 576px) {
+  .custom-container {
+    max-width: 540px !important;
+  }
+}
+
+/* Tablet screens (768px and above) */
+@media (min-width: 768px) {
+  .custom-container {
+    max-width: 720px !important;
+  }
+}
+
+/* Desktop screens (992px and above) */
+@media (min-width: 992px) {
+  .custom-container {
+    max-width: 960px !important;
+  }
+}
+
+/* Large desktop screens (1200px and above) */
+@media (min-width: 1200px) {
+  .page-container {
+    max-width: 1540px !important;
+  }
+
+  .custom-container {
+    max-width: 1950px !important;
+  }
+}
+
+@media print {
+  @page {
+    margin: 5mm;
+    size: A4;
+  }
+}
+
+.refreshIconCol {
+  transform: translate(-7px, -4px);
+}
+
+.custom-typeahead-class .rbt-input-main {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  height: 28px;
+  font-weight: 400;
+  margin-bottom: -8px;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.custom-typeahead-class .rbt-input-main:focus {
+  box-shadow: none;
+  border: 1px solid #030303;
+}
+
+.custom-typeahead-class .rbt-menu {
+  position: absolute;
+  inset: 0px auto auto 0px;
+  transform: translate(0px, 28px);
+  width: 385.547px;
+  display: block;
+  max-height: 150px !important;
+  overflow: auto;
+  font-size: 12px !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.erp-footer-table {
+  margin-left: 23px !important;
+}
+
+
+/* material searchable combo option overflow*/
+.custom-typeahead-class .rbt-menu {
+  width: auto !important;
+  /* Adjust the width as needed */
+}
+
+.react-datepicker-wrapper {
+  display: block;
+}
+
+/* Watermark.css */
+.watermark-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* Ensure watermark does not block interactions */
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  letter-spacing: 20px;
+}
+
+.watermark-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.watermark-text {
+  font-size: 7rem;
+  /* Adjust font size as needed */
+  color: rgba(0, 0, 0, 0.1);
+  /* Adjust text color and opacity */
+  transform: rotate(-30deg);
+  /* Rotate text to make it less intrusive */
+  white-space: nowrap;
+}
+
+.wide-td {
+  min-width: 200px;
+  /* Adjust the width as needed */
+}
+
+.highlightHighPriorityTr  > div{
+	background: #FFC1C3!important
+}
+
+.border-left{
+  border-left: 1px solid black !important;
+}
+
+.border-right{
+  border-right: 1px solid black !important;
+}
+
+
+.wide-beamwise-modal {
+  max-width: 1200px !important;
+  width: 90% !important;
+  margin: auto;
+}
+
+.wide-beamwise-modal .modal-content {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.wide-beamwise-modal .modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}

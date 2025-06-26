@@ -1,0 +1,726 @@
+.main_heding {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+.erp_phone {
+    display: flex;
+}
+
+.erp_transporter_div {
+    margin: 10px !important;
+}
+
+
+.erp_group-resl_container {
+    box-shadow: 0px 1px 6px 1px #ccc !important;
+    margin-left: 0px;
+    margin-right: 14px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+
+/* mobile view mediaquery */
+@media only screen and (max-width: 481px) {
+    .erp_tranpsorter_save_btn {
+        margin-left: -7pc;
+    }
+
+    .erp_addfitlter_table {
+        display: block;
+    }
+
+    /* dnyaneshwar 19-05-23 */
+    .erp_filter_icon_position {
+        display: block;
+    }
+
+    .icons_positon {
+        width: 25%;
+    }
+
+    /* navigate Path */
+    .erp_nave_link_path {
+        margin-top: 20px;
+    }
+
+    .erp_group-resl_container {
+        margin-left: 0px;
+        margin-right: 14px;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+
+    .erp_filter_group-by-result {
+        margin-top: 15px;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 600px) and (max-width: 768px) {
+    .erp_form-select-filter {
+        overflow: auto !important;
+    }
+
+    .erp_group-reslut-by {
+        display: -webkit-box;
+        margin-top: 5px;
+
+    }
+
+    .erp_nave_link_path {
+        margin-top: 20px;
+    }
+
+    .erp_filter_table_avl_col {
+        display: contents;
+    }
+
+    .erp_group-resl_container {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+
+    .erp_filter_group-by-result {
+        display: contents;
+    }
+
+    .erp_filter_row_tab_view {
+        margin-bottom: 10px;
+    }
+
+    /* form css */
+    .erp_form_col_div {
+        width: -webkit-fill-available;
+    }
+
+    /* city form */
+    .erp_city_form_col {
+        width: -webkit-fill-available;
+    }
+
+}
+
+
+/* Transporter Contact Entry  datatable*/
+
+[data-tip] {
+    position: relative;
+
+}
+
+[data-tip]:before {
+    content: '';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #CD1818;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    z-index: 8;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+[data-tip]:after {
+    content: attr(data-tip);
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    padding: 1px 8px;
+    background: #CD1818;
+    color: #fff;
+    z-index: 9;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+[data-tip]:hover:before,
+[data-tip]:hover:after {
+    display: block;
+}
+
+.erp_frm_Btns {
+    text-align: center;
+}
+
+.erp_MLeft_btn {
+    margin-left: 10px !important;
+}
+
+.erp_align-right {
+    text-align: right;
+}
+
+.erp_doc-Btn {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* Temporary */
+
+.navbar-expand .navbar-nav .dropdown-menu {
+    height: 400px;
+    overflow-y: auto;
+}
+
+/* Bom */
+.erp-input-qty-table {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px 5px 0px 5px;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.erp-input-qty-table:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #424242;
+    outline: 0;
+    box-shadow: none;
+}
+
+.no-recrds {
+    text-align: center;
+    margin: 10px;
+}
+
+.bomFilterData {
+    margin-top: 10px;
+}
+
+/* Filter Dropdown list */
+
+
+.erp-container {
+    position: relative;
+    max-width: 320px;
+    width: 100%;
+}
+
+.select-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.select-btn .btn-text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+
+.select-btn .arrow-dwn {
+    display: flex;
+    height: 21px;
+    width: 21px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #6e93f7;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.select-btn.open .arrow-dwn {
+    transform: rotate(-180deg);
+}
+
+.list-items {
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    height: 150px;
+    position: absolute;
+    overflow-y: auto;
+    z-index: 2;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.select-btn.open~.list-items {
+    display: block;
+}
+
+.select-btn.close~.list-items {
+    display: none;
+}
+
+.list-items .item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 8px;
+    width: 205px;
+}
+
+.list-items .item:hover {
+    background-color: #e7edfe;
+}
+
+.item .item-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+
+.item .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1.5px solid #c0c0c0;
+}
+
+#erp-checkboxes {
+    display: none;
+}
+
+.item.checked .checkbox {
+    background-color: #4070f4;
+    border-color: #4070f4;
+}
+
+.checkbox .check-icon {
+    color: #fff;
+    font-size: 11px;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.item.checked .check-icon {
+    transform: scale(1);
+}
+
+.txt-filter-bom {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.erp-Mt-10 {
+    margin-top: 10px;
+}
+
+.highlight {
+    background-color: #3790ED !important;
+    font-weight: bold;
+}
+
+.erp-data-entry-tb-contact-inp {
+    width: unset;
+}
+
+.erp-data-entry-tb-contact-codes {
+    width: unset;
+}
+
+/* 
+.MuiBox-root.css-1x7a9iz {
+    display: none;
+} */
+
+.css-1kk43a7 {
+    padding-top: 63px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    padding-right: 17px;
+    text-align: center;
+    opacity: 1;
+    background: transparent;
+    color: #0b60ed;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.css-16pyyvj {
+    opacity: 1;
+    background: transparent;
+    color: #344767;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.css-2mkoyh {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    opacity: 1;
+    background: transparent;
+    color: #344767;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.css-1o73404 {
+    margin-top: 11px;
+    text-align: center;
+    opacity: 1;
+    background: transparent;
+    color: #344767;
+    border-radius: none;
+    box-shadow: none;
+}
+
+a.logintodashordId {
+    color: white;
+}
+
+.erp_footer {
+    position: fixed;
+    bottom: 0px;
+    background: #831657 !important;
+}
+
+.css-1ok7jvj-MuiButtonBase-root-MuiButton-root {
+    background: #831657;
+
+}
+
+.css-19fdyy-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked .MuiSwitch-thumb {
+    border-color: #005eb4 !important;
+}
+
+.sendbtn {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.css-i2o0e {
+    margin-left: 8px;
+    margin-top: 5px;
+
+}
+
+a.loginbtncolor {
+    color: white;
+}
+
+.form-select.login-combo {
+    padding: 0.75rem;
+    height: 43px !important;
+}
+
+
+a.mx-3.my-2.fw-normal {
+    /* color: #005eb4; */
+    color: #831657;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+h6.mx-3.my-2.fw-normal {
+    /* color: #005eb4; */
+    color: #831657;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+/* print.css */
+.erp-invoice-print-label {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+    color: black;
+    /* line-height: 24px; */
+    margin-bottom: 0px !important;
+}
+
+.erp-invoice-print-label-md {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    /* line-height: 1.5; */
+    text-transform: capitalize;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    vertical-align: unset;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: black;
+}
+
+.erp-invoice-print-label-md-lg {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    /* line-height: 1.5; */
+    margin: 0;
+    text-transform: capitalize;
+    letter-spacing: 0.02857em;
+    opacity: 1;
+    vertical-align: unset;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+.erp-invoice-print-label-lg {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.erp_invoice_table_th {
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.erp_invoice_table_td {
+    font-size: 9px;
+    font-weight: 500;
+    /* white-space: nowrap; */
+}
+
+.invoice-footer {
+    border-collapse: collapse;
+    /* Collapse borders for a single border per cell */
+    width: 100%;
+    /* Set the width of the table */
+}
+
+.invoice-footer th,
+.invoice-footer td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.border {
+    /* /* border-bottom: 0.5px solid black !important; */
+    border: 0.5px solid black !important;
+}
+
+.wider-hr {
+    border: 1px solid black;
+    /* You can adjust the width and color as needed */
+    margin: 10px 0;
+    /* Add margin for spacing if desired */
+}
+
+.align-bottom-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* High opacity background overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* Ensure it's on top of other content */
+}
+
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    /* Background color for the spinner container */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.fixed-table {
+    width: auto;
+    flex: 0 0 auto;
+}
+
+.scrollable-table {
+    width: 100%;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.erp_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.erp_table_head {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.erp_table_th,
+.erp_table_td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.erp_no_recrd_card {
+    font-size: 14px;
+    height: 51px !important;
+}
+
+.erp_dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.erp_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    z-index: 1;
+    overflow-y: scroll;
+    height: 150px !important;
+
+}
+
+.checkbox {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.container-invoice {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bordered {
+    border: 1px solid #000;
+}
+
+.fixed-bottom-content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    /* Set the background color as needed */
+    padding: 10px;
+    /* Set the padding as needed */
+    /* Add any other styles as needed */
+}
+
+
+/*  */
+
+
+/* Style the navigation bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the navigation bar items */
+ul.navbar li {
+    float: left;
+}
+
+/* Style the top-level menu items */
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the color on hover for top-level menu items */
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+/* Style the nested dropdowns */
+ul.navbar li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+}
+
+/* Style the nested dropdown items */
+ul.navbar li ul li {
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Change the color on hover for nested dropdown items */
+ul.navbar li ul li a:hover {
+    background-color: #555;
+}
+
+/* Show the nested dropdowns on hover */
+ul.navbar li:hover ul {
+    display: block;
+}
+
+
+/* CSS to remove top and bottom borders */
+/* .no-border {
+    border-top: none !important;
+    border-bottom: none !important;
+} */
+
+/* tr.addedTr.no-border {
+    border-top: none !important;
+    border-bottom: none !important;
+} */
+
+
+.transformed {
+    /* transform: translate(-65px, -4px); */
+    transform: translate(-35px, -4px);
+
+  }
+  @media (max-width: 596px) {
+    .transformed {
+      transform: none; /* Reset transformation for smaller screens */
+    }
+  }

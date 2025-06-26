@@ -1,0 +1,38 @@
+.button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button_green_Theme {
+    border-radius: 50%;
+    background-color: #04AA6D;
+    width: 22px;
+    height: 22px;
+}
+
+.button_blue_Theme {
+    border-radius: 50%;
+    background-color: red;
+    width: 22px;
+    height: 22px;
+}
+
+.button_orange_Theme {
+    border-radius: 50%;
+    background-color: orange;
+    width: 22px;
+    height: 22px;
+}
+
+.button_dark_Theme{
+    border-radius: 50%;
+    background-color: black;
+    width: 22px;
+    height: 22px;
+}
